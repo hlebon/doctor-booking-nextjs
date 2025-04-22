@@ -28,14 +28,16 @@ Link: https://doctor-booking-nextjs.onrender.com/
 
 Clone the repository:
 
-- git clone https://github.com/yourusername/doctor-booking.git
-- `cd doctor-booking`
+- `git clone https://github.com/hlebon/doctor-booking-nextjs`
+- `cd doctor-booking-nextjs`
 - `npm install`
 - `npm run dev`
 
 Run lighthouse
 
 - `npm run lighthouse`
+- Example:
+  ![Doctor Booking App](/public/images/lighthouse-report.png)
 
 ## AI Tools Usage
 
@@ -98,7 +100,3 @@ This project was developed with assistance from AI tools:
    - [ ] Improve error handling
    - [ ] Enhanced responsive design
    - [ ] Animations and transitions
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
