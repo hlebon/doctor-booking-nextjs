@@ -12,11 +12,9 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  // Configuración base de Next.js y TypeScript
   ...compat.extends('next/core-web-vitals'),
   ...compat.extends('next/typescript'),
 
-  // Integración de prettier como plugin de ESLint
   {
     name: 'prettier-integration',
     plugins: {
@@ -27,7 +25,6 @@ const eslintConfig = [
     },
   },
 
-  // Desactiva reglas conflictivas con prettier
   {
     name: 'prettier-config',
     rules: eslintConfigPrettier.rules,
