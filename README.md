@@ -4,6 +4,9 @@ A modern, accessible web application for booking doctor appointments, built with
 
 Link: https://doctor-booking-nextjs.onrender.com/
 
+<img width="1457" alt="image" src="https://github.com/user-attachments/assets/665e0ae6-56d2-463b-b11c-c7b913197385" />
+
+
 ## Features
 
 - 📋 Doctor directory with filtering capabilities
