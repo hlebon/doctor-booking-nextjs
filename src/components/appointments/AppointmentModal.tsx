@@ -48,10 +48,12 @@ export default function AppointmentModal({ doctor, onClose }: Props) {
       <div ref={modalRef} className="space-y-4">
         <div className="text-sm text-white dark:text-white">
           <p>
-            Select an available time slot for your appointment with Dr.{' '}
+            Select an available time slot for your appointment with{' '}
             {doctor.name}
           </p>
-          <p className="mt-1">Specialty: {doctor.specialty}</p>
+          <p className="mt-1 text-blue-200 font-semibold">
+            Specialty: {doctor.specialty}
+          </p>
         </div>
 
         <fieldset className="space-y-3">
